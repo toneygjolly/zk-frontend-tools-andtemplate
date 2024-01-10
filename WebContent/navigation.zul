@@ -1,0 +1,18 @@
+<?page title="new page title" contentType="text/html;charset=UTF-8"?>
+<zk>
+
+<div id="container">
+<navbar id="navbar" collapsed="fasle" orient="vertical" width="20%">
+<nav label="ZK's pizza" iconSclass="z-icon-home"/>
+<nav label="customers" iconSclass="z-icon-group" badgeText="3">
+  <navitem label="new customer"/>
+  <navitem label="old customer"/>
+</nav>
+<nav label="orders" iconSclass="z-icon-truck" badgeText="4"/>
+<nav label="Fan service" iconSclass="z-icon-star"/>
+
+</navbar>
+
+
+</div>
+</zk>

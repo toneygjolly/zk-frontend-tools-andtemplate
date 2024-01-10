@@ -1,0 +1,17 @@
+<?page title="new page title" contentType="text/html;charset=UTF-8"?>
+<zk>
+<window title="new page title" border="normal">
+<panel id="panel" title="Zk Desktop" border="normal" width="445px">
+<panelchildren id="pc">
+<image src="1.jpeg" width="0100%" height="50%"></image>
+</panelchildren>
+<toolbar id="tb" align="end">
+<toolbarbutton image="magnifying-glass-solid.svg" onClick='alert("search")'/>
+<toolbarbutton image="instagram.svg" onClick='alert("search")'/>
+<toolbarbutton image="house-solid.svg" onClick='alert("search")'/>
+<toolbarbutton image="location-pin-solid.svg" onClick='alert("search")'/>
+</toolbar>
+
+</panel>
+</window>
+</zk>

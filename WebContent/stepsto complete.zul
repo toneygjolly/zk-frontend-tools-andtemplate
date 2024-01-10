@@ -1,0 +1,10 @@
+<?page title="new page title" contentType="text/html;charset=UTF-8"?>
+<zk>
+<window title="new page title" border="normal">
+<stepbar>
+<step title="step 1"/>
+<step title="step 2"/>
+<step title="step 3"/>
+</stepbar>
+</window>
+</zk>

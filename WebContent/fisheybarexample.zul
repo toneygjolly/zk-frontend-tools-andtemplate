@@ -1,0 +1,36 @@
+<?page title="new page title" contentType="text/html;charset=UTF-8"?>
+<zk>
+
+<div height="450" apply="fisheyexample.fisheyexample1">
+<style>
+.fisheyeDemo{
+margin :5px 40px;
+position :relative;
+}
+</style>
+<fisheyebar id="fisheyebar"  sclass="fisheyeDemo"
+itemWidth="80" itemHeight="80" itemMaxHeight="160" itemMaxWidth="160">
+<fisheye image="instagram.svg" id="img1" label="instagram"/>
+<fisheye image="location-pin-solid.svg" label="location"/>
+<fisheye image="magnifying-glass-solid.svg" label="search"/>
+<fisheye image="house-solid.svg" label="home"/>
+</fisheyebar>
+<div>
+orientation
+  <radiogroup id="o">
+  <radio label="horizontal" value="horizontal" checked="true"/>
+  <radio label="vertical" value="vertical"/>
+  </radiogroup>
+  <separator></separator>
+  Attach edge
+  <radiogroup id="a">
+  <radio label="horizontal" value="top" checked="true"/>
+  <radio label="bottom" value="bottom"/>
+    <radio label="center" value="center"/>
+  </radiogroup>
+
+</div>
+
+</div>
+
+</zk>

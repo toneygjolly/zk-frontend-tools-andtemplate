@@ -1,0 +1,13 @@
+<?page title="new page title" contentType="text/html;charset=UTF-8"?>
+<zk>
+<window title="new page title" popup="mp,type=toggle" border="normal" apply="captcha.captcha">
+CAPTCHA
+<vbox>
+<captcha id="cpa" length="5" width="200px" height="50px"/>
+<textbox id="t"></textbox>
+</vbox>
+<button id="reset">Reset</button>
+<button id="b1">Validate</button>
+
+</window>
+</zk>

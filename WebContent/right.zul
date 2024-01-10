@@ -1,0 +1,64 @@
+<?page title="new page title" contentType="text/html;charset=UTF-8"?>
+<zk>
+<window title="new page title" context="mp" border="normal">
+<menubar width="200px" scrollable="true">
+<menu label="file">
+
+<menupopup id="mp">
+<menuitem label="menupopup"/>
+<menu label="New File">
+<menupopup>
+<menuitem label="sub menu1" onClick="alert(self.label)"/>
+<menuitem label="sub menu2" onClick="alert(self.label)"/>
+<menuseparator></menuseparator>
+<menuitem label="Exit" onClick="alert(self.label)"/>
+</menupopup>
+</menu>
+
+<menuitem label="New" onClick="alert(self.label)"/>
+<menuitem label="form fill" id="mOpen"/>
+<menuitem label="save" onClick="alert(self.label)"/>
+<menuseparator></menuseparator>
+<menuitem label="Exit" onClick="alert(self.label)"/>
+</menupopup>
+</menu>
+
+<menu label="Data">
+<menupopup>
+
+<menu label="New File">
+<menupopup>
+<menuitem label="sub menu1" onClick="alert(self.label)"/>
+<menuitem label="sub menu2" onClick="alert(self.label)"/>
+<menuseparator></menuseparator>
+<menuitem label="Exit" onClick="alert(self.label)"/>
+</menupopup>
+</menu>
+
+<menuitem label="New" onClick="alert(self.label)"/>
+<menuitem label="open" id="mOpen1"/>
+<menuitem label="save" onClick="alert(self.label)"/>
+<menuseparator></menuseparator>
+<menuitem label="Exit" onClick="alert(self.label)"/>
+</menupopup>
+</menu>
+
+<menu label="contact">
+<menupopup>
+<menuitem label="New" onClick="alert(self.label)"/>
+<menuitem label="open" id="mOpen3"/>
+<menuitem label="save" onClick="alert(self.label)"/>
+<menuseparator></menuseparator>
+<menuitem label="Exit" onClick="alert(self.label)"/>
+</menupopup>
+</menu>
+
+</menubar>
+
+<label id="lName" value="hi its"/>
+<button id="submitButton" mold="os">submit</button>
+<button id="resetButton" popup="mp, type=toggle">reset</button>
+
+
+</window>
+</zk>

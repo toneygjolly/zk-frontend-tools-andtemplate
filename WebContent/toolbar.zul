@@ -1,0 +1,14 @@
+<?page title="new page title" contentType="text/html;charset=UTF-8"?>
+<zk>
+<window title="welcome" border="normal" apply="toolbar.tool" style="background-color: yellow;">
+<toolbar id="tb" align="center">
+<toolbarbutton id="a1" image="21.png"/>
+ 
+ <toolbarbutton id="a2" image="icons8-home-50.png"/>
+ <toolbarbutton image="SEARCH.png" 
+  onClick='alert("search")'/>
+  <toolbarbutton image="icons8-calling-30.png" 
+  onClick='alert("call")'/>
+</toolbar>
+</window>
+</zk>

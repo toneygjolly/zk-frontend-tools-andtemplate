@@ -1,0 +1,15 @@
+<?page title="new page title" contentType="text/html;charset=UTF-8"?>
+<zk>
+<window title="new page title" border="normal">
+<toolbar id="tb" align="end">
+<toolbarbutton iconSclass="z-icon-music" mode="toggle"/>
+<toolbarbutton iconSclass="z-icon-facebook" mode="toggle"/>
+<toolbarbutton iconSclass="z-icon-home" mode="toggle"/>
+<toolbarbutton iconSclass="z-icon-search" mode="toggle"/>
+<toolbarbutton iconSclass="z-icon-search" mode="toggle"/>
+<button iconSclass="z-icon-search"/>
+
+
+</toolbar>
+</window>
+</zk>
