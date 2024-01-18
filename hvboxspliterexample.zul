@@ -1,0 +1,15 @@
+<?page title="new page title" contentType="text/html;charset=UTF-8"?>
+<zk>
+<window title="new page title" border="normal">
+<hbox>
+<div width="100px" height="50px" style="background:blue">1</div>
+<splitter collapse="after"/>
+<div width="80px" height="70px" style="background:red">2</div>
+</hbox>
+<vbox>
+<div width="100px" height="50px" style="background:yellow">1</div>
+<splitter collapse="before"/>
+<div width="80px" height="70px" style="background:green">2</div>
+</vbox>
+</window>
+</zk>

@@ -1,0 +1,40 @@
+<?page title="new page title" contentType="text/html;charset=UTF-8"?>
+<zk>
+<borderlayout width="800px" height="300px">
+
+<north>
+<div style="background:red">
+N
+</div>
+</north>
+
+<south>
+<div style="background:red">
+<fisheyebar id="fisheyebar"  sclass="fisheyeDemo"
+itemWidth="60" itemHeight="40" itemMaxHeight="120" itemMaxWidth="120">
+<fisheye image="image/instagram.svg" id="img1" label="instagram"/>
+<fisheye image="image/location-pin-solid.svg" label="location"/>
+<fisheye image="image/magnifying-glass-solid.svg" label="search"/>
+<fisheye image="image/house-solid.svg" label="home"/>
+</fisheyebar>
+</div>
+</south>
+
+<west>
+<div style="background:green">
+w
+</div>
+</west>
+
+<east>
+<div style="background:red">
+E
+</div>
+</east>
+<center>
+<div style="background:yellow">
+C
+</div>
+</center>
+</borderlayout>
+</zk>

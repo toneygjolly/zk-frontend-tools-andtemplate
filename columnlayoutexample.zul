@@ -1,0 +1,29 @@
+<?page title="new page title" contentType="text/html;charset=UTF-8"?>
+
+
+
+
+
+<zk>
+    <columnlayout>
+    
+    <columnchildren width = "40%" style = "padding:5px 1px">
+        <panel height = "60px" title = "1" border = "normal" maximizable = "true">
+            <panelchildren>1</panelchildren>
+        </panel>
+        <panel height = "80px" title = "2" border = "normal" closable = "true">
+            <panelchildren>2</panelchildren>
+        </panel>
+        
+        </columnchildren>
+        
+        
+        <columnchildren width = "30%" style = "padding:5px 1px">
+            <panel height = "100px" title = "3" border = "normal" collapsible = "true">
+            <panelchildren>3</panelchildren>
+        </panel>
+        </columnchildren>
+        
+        
+    </columnlayout>
+</zk>

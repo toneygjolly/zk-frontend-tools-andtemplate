@@ -1,0 +1,22 @@
+<?page title="new page title" contentType="text/html;charset=UTF-8"?>
+<zk>
+<window title="A" closable="true" sizable="true"
+border="normal" mode="overlapped">
+<div style="background:yellow">1</div>
+<button Id="b">Type</button>
+<textbox></textbox>
+
+</window>
+<window title="B" closable="true" sizable="true"
+border="normal" mode="overlapped">
+<div style="background:GREEN">1</div>
+<button Id="b">Click</button>
+<textbox></textbox>
+</window>
+<window title="C" closable="true" sizable="true"
+border="normal" mode="overlapped">
+<div style="background:BLUE">1</div>
+<button Id="b">Enter</button>
+<textbox></textbox>
+</window>
+</zk>

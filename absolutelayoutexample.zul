@@ -1,0 +1,14 @@
+<?page title="new page title" contentType="text/html;charset=UTF-8"?>
+<zk>
+<absolutelayout>
+<absolutechildren id="1" x='360' y='100'>
+<window border="normal">toney</window>
+</absolutechildren>
+<absolutechildren x='260' y='180'>
+<window border="normal">felix</window>
+</absolutechildren>
+<absolutechildren x='470' y='180'>
+<window border="normal">felix</window>
+</absolutechildren>
+</absolutelayout>
+</zk>
